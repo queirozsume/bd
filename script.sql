@@ -1,4 +1,4 @@
-use crud;
+use paisefilhos;
 alter table if exists filhos drop foreign key fk_pai;
 drop table if exists pais;
 drop table if exists filhos;
@@ -27,5 +27,3 @@ insert into filhos(nome,pai)values('joelma',2);
 insert into filhos(nome,pai)values('joel',3);
 insert into filhos(nome,pai)values('cristiane',4);
 insert into filhos(nome,pai)values('javique',5);
-
-
